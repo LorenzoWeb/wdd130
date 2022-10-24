@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+header{
+    margin-bottom: 0;
+    
+}
+.title-image{
+    width: 100%;
+    box-sizing: border-box;
+}
+main{
+    background-color: rgb(153, 152, 152);
+    margin-top: 0;
+}
+.desk{
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 10px solid rgb(82, 80, 80);
+    margin: 50px;
+}
+.graphic{
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 10px solid rgb(77, 74, 74);
+    margin: 50px;
+}
+.person{
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 10px solid rgb(66, 65, 65);
+    margin: 50px;
+}

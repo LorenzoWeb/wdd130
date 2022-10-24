@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100&family=Oswald:wght@200&family=Playfair+Display&family=Rubik+Dirt&display=swap');
+
 body{
     background-color: #d9e1e5;
+    font-family: Oswald, sans-serif ;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
+h2{
+    margin: 0;
+
+}
+
 header{
     background-color:#1a496f;
 }
@@ -12,6 +24,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: white;
+    padding: 35px;
 }
 nav a:hover{
     background-color: rgb(126, 117, 106);
@@ -34,6 +47,10 @@ main section {
     background-color: blanchedalmond;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color:#1a496f;
@@ -41,16 +58,23 @@ main section {
 }
 .msg{
     background-color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: black;
+    font-family: Inter Tight;
 }
 .msg p {
     color: darkslategrey;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 footer{
     background-color: #1a496f;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
     font-size: 1.2em;
@@ -65,8 +89,14 @@ footer a{
 footer a:hover{
     color: #d9e1e5;
 }
+footer.social img{
+    padding-top: 15px;
+}
 .home-title{
     color: cadetblue;
+    font-family: Rubik dirt, Arial, Helvetica, sans-serif ;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: gray;
@@ -74,9 +104,22 @@ h4{
 .logo{
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+}
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-image{
     width: 100%;
+}
+.river-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid gray;
+}
+main section img{
+    box-sizing: border-box;
 }
